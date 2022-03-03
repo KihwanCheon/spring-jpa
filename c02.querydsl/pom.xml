@@ -9,7 +9,7 @@
 		<artifactId>jpa</artifactId>
 	</parent>
 
-	<artifactId>jpa.c02.dto.querydsl</artifactId>
+	<artifactId>jpa.c02.querydsl</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>

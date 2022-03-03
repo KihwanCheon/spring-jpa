@@ -11,8 +11,8 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>c01.dto</module>
-		<module>c02.dto.querydsl</module>
+		<module>c01.simple</module>
+		<module>c02.querydsl</module>
 	</modules>
 	
 	<properties>

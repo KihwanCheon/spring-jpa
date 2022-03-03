@@ -1,4 +1,4 @@
-package example.c01.dto.entity;
+package example.c02.querydsl.entity;
 
 import lombok.Data;
 

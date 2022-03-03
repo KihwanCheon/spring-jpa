@@ -1,6 +1,6 @@
 
 # Simple insert & select
-* base [c10.dto](../c01.dto/README.md)
+* base [c10.simple](../c01.simple/README.md)
 * select with querydsl
   * apt-maven-plugin: mvn apt:process
 * last getMember: select at once

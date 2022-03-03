@@ -1,9 +1,9 @@
-package example.c01.dto.service;
+package example.c02.querydsl.service;
 
-import example.c01.dto.entity.Member;
-import example.c01.dto.entity.Team;
-import example.c01.dto.repo.TeamMemberRepo;
-import example.c01.dto.repo.TeamRepo;
+import example.c02.querydsl.entity.Member;
+import example.c02.querydsl.entity.Team;
+import example.c02.querydsl.repo.TeamMemberRepo;
+import example.c02.querydsl.repo.TeamRepo;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityManager;

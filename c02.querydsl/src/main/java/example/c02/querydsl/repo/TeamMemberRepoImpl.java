@@ -1,8 +1,8 @@
-package example.c01.dto.repo;
+package example.c02.querydsl.repo;
 
-import example.c01.dto.entity.Member;
-import example.c01.dto.entity.QMember;
-import example.c01.dto.entity.QTeam;
+import example.c02.querydsl.entity.Member;
+import example.c02.querydsl.entity.QMember;
+import example.c02.querydsl.entity.QTeam;
 import org.springframework.data.jpa.repository.support.QuerydslRepositorySupport;
 
 import java.util.List;

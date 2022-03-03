@@ -1,6 +1,6 @@
-package example.c01.dto.repo;
+package example.c02.querydsl.repo;
 
-import example.c01.dto.entity.Member;
+import example.c02.querydsl.entity.Member;
 import org.springframework.data.repository.NoRepositoryBean;
 
 import java.util.List;
