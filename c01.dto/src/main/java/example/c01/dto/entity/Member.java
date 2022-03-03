@@ -1,11 +1,10 @@
 package example.c01.dto.entity;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import javax.persistence.*;
 
-@Getter @Setter
+@Data
 @Entity
 @Table(name = "member")
 public class Member {

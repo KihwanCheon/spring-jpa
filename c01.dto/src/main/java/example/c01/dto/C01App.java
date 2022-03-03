@@ -9,10 +9,10 @@ import org.springframework.context.annotation.Bean;
 
 @Slf4j
 @SpringBootApplication
-public class App {
+public class C01App {
 
     public static void main(String[] args) {
-        try(var ctx = SpringApplication.run(App.class, args)) {
+        try(var ctx = SpringApplication.run(C01App.class, args)) {
             // run scope!
         }
     }
