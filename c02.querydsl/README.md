@@ -1,8 +1,31 @@
 
 # Simple insert & select
 * base [c10.simple](../c01.simple/README.md)
-* select with querydsl
+* select with querydsl for **fetch join**
+  * http://querydsl.com/static/querydsl/4.1.3/reference/html_single/
   * apt-maven-plugin: mvn apt:process
+  * add custom repository interface with @NoRepositoryBean
+  * main jpa repo interface extend custom repository
+  * impl custom repository
+  * use main jpa repo interface
+```java
+class Entity {
+    @Id Long id;
+}
+@NoRepositoryBean
+interface EntityRepoCustom {
+    List<Entity> listSome();
+}
+
+interface EntityRepo extends EntityCustmRepo, JpaRepository<Entity, Long> {
+}
+
+class EntityRepoImp extends QuerydslRepositorySupport implements EntityRepoCustom {
+  public List<Entity> listSome() {
+      return ...;
+  }
+}
+```
 * last getMember: select at once
 ```sql
 select member0_.id as id1_0_0_,
