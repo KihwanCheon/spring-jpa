@@ -12,6 +12,7 @@
 
 	<modules>
 		<module>c01.dto</module>
+		<module>c02.dto.querydsl</module>
 	</modules>
 	
 	<properties>
