@@ -1,6 +1,6 @@
-package example.c01.dto.repo;
+package example.c01.simple.repo;
 
-import example.c01.dto.entity.Member;
+import example.c01.simple.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

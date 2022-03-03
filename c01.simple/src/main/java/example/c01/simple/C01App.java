@@ -1,6 +1,6 @@
-package example.c01.dto;
+package example.c01.simple;
 
-import example.c01.dto.service.TeamService;
+import example.c01.simple.service.TeamService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
