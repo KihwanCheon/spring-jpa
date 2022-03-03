@@ -1,0 +1,9 @@
+
+.build/
+.idea/
+log/
+logs/
+*/log/
+*/logs/
+
+target/
