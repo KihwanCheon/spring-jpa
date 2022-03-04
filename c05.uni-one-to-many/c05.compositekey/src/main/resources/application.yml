@@ -1,0 +1,21 @@
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: "jdbc:h2:./target/spring-jpa-c05-composite;DATABASE_TO_UPPER=false;MODE=LEGACY"
+    username: "sa"
+    password:
+
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+
+    properties.hibernate.dialect: org.hibernate.dialect.H2Dialect
+
+logging:
+  level:
+    root: error
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+    example: debug

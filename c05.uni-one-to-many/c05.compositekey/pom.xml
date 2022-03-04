@@ -9,14 +9,7 @@
 		<artifactId>jpa</artifactId>
 	</parent>
 
-	<artifactId>c05.uni-one-to-many</artifactId>
+	<artifactId>c05.compositekey</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
-
-	<modules>
-		<module>c05.base</module>
-		<module>c05.cascade</module>
-		<module>c05.compositekey</module>
-	</modules>
 
 </project>
