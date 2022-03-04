@@ -13,6 +13,7 @@
 		<module>c02.querydsl</module>
 		<module>c03.entity-mapping</module>
 		<module>c04.uni-many-to-one</module>
+		<module>c05.uni-one-to-many</module>
 	</modules>
 	
 	<properties>
