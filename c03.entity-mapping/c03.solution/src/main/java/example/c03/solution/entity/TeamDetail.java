@@ -13,7 +13,7 @@ public class TeamDetail {
     @Column(name = "type") String type;
     @Column(name = "`desc`") String desc;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "team_id")
     Team team;
 }
