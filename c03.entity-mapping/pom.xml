@@ -9,7 +9,7 @@
 		<artifactId>jpa</artifactId>
 	</parent>
 
-	<artifactId>jpa.c03.entity-mapping</artifactId>
+	<artifactId>c03.entity-mapping</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
