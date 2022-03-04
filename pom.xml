@@ -12,6 +12,7 @@
 		<module>c01.simple</module>
 		<module>c02.querydsl</module>
 		<module>c03.entity-mapping</module>
+		<module>c04.uni-many-to-one</module>
 	</modules>
 	
 	<properties>
