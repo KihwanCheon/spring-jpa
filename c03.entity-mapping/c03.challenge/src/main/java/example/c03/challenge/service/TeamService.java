@@ -6,7 +6,6 @@ import example.c03.challenge.repo.TeamDetailRepo;
 import example.c03.challenge.repo.TeamRepo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.springframework.test.util.ReflectionTestUtils;
 import org.springframework.util.Assert;
 
 import javax.transaction.Transactional;
@@ -35,17 +34,17 @@ public class TeamService {
         var savedTeam = teamRepo.save(team);
         Assert.notNull(savedTeam, "savedTeam must be not null");
 
-        var dbTeam = teamRepo.findById((Long)ReflectionTestUtils.invokeGetterMethod(savedTeam, "id"));
+        var dbTeam = teamRepo.findById((Long) invokeGetterMethod(savedTeam, "id"));
         Assert.isTrue(dbTeam.isPresent(), "dbTeam must be present");
 
         var detail = new TeamDetail();
-        ReflectionTestUtils.invokeSetterMethod(detail, "team", team);
-        ReflectionTestUtils.invokeSetterMethod(detail, "type", "t1");
-        ReflectionTestUtils.invokeSetterMethod(detail, "desc", "team-desc1");
+        invokeSetterMethod(detail, "team", team);
+        invokeSetterMethod(detail, "type", "t1");
+        invokeSetterMethod(detail, "desc", "team-desc1");
 
         var savedDetail = teamDetailRepo.save(detail);
         Assert.notNull(savedDetail, "savedDetail must be not null");
-        var dbDetail = teamDetailRepo.findById((Long)ReflectionTestUtils.invokeGetterMethod(savedDetail, "id"));
+        var dbDetail = teamDetailRepo.findById((Long) invokeGetterMethod(savedDetail, "id"));
         Assert.isTrue(dbDetail.isPresent(), "dbDetail must be present");
     }
 }
