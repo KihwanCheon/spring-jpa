@@ -16,6 +16,7 @@
 		<module>c05.uni-one-to-many</module>
 		<module>c06.bi-one-to-many</module>
 		<module>c07.bi-one-to-many-quest</module>
+		<module>c08.n-plus-1</module>
 	</modules>
 	
 	<properties>
