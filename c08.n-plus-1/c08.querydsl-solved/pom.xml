@@ -9,7 +9,7 @@
 		<artifactId>c08.n-plus-1</artifactId>
 	</parent>
 
-	<artifactId>c08.querydsl-quest</artifactId>
+	<artifactId>c08.querydsl-solved</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
