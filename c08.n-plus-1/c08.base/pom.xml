@@ -6,15 +6,10 @@
 	<parent>
 		<groupId>example</groupId>
 		<version>0.0.1-SNAPSHOT</version>
-		<artifactId>jpa</artifactId>
+		<artifactId>c08.n-plus-1</artifactId>
 	</parent>
 
-	<artifactId>c08.n-plus-1</artifactId>
+	<artifactId>c08.base</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
-
-	<modules>
-		<module>c08.base</module>
-	</modules>
 
 </project>

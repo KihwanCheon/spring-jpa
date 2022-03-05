@@ -1,1 +1,2 @@
-# Quest based on c06.bi-one-to-many
+# Base of N+1 problem
+* joining 3 entities 
