@@ -15,6 +15,14 @@
 
 	<modules>
 		<module>c08.base</module>
+		<module>c08.entity-graph</module>
+		<module>c08.entity-graph-quest</module>
+		<module>c08.jpql</module>
+		<module>c08.jpql-quest</module>
+		<module>c08.jpql-solved</module>
+		<module>c08.querydsl</module>
+		<module>c08.querydsl-quest</module>
+		<module>c08.querydsl-solved</module>
 	</modules>
 
 </project>

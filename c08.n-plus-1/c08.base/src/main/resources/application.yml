@@ -18,15 +18,3 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
 #        format_sql: true
-
-logging:
-  level:
-    root: error
-    org.hibernate.type.descriptor.sql.BasicBinder: trace
-    example: debug
-    jdbc:
-      sqlonly: error
-      sqltiming: error
-      audit: error
-      resultset: error
-      resultsettable: info

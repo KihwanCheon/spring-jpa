@@ -15,15 +15,3 @@ spring:
       ddl-auto: create-drop
 
     properties.hibernate.dialect: org.hibernate.dialect.H2Dialect
-
-logging:
-  level:
-    root: error
-    org.hibernate.type.descriptor.sql.BasicBinder: trace
-    example: debug
-    jdbc:
-      sqlonly: error
-      sqltiming: error
-      audit: error
-      resultset: error
-      resultsettable: info
