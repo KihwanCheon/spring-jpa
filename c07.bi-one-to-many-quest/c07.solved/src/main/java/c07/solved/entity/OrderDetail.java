@@ -14,15 +14,16 @@ public class OrderDetail {
 
     String desc;
 
-    // TODO : Set RelationShip!
+    @ManyToOne
+    @MapsId(value = "orderId")
     Order order;
 
     public OrderDetail(String type) {
         this.pk.setType(type);
     }
 
-    @Data @NoArgsConstructor
-    @EqualsAndHashCode
+    @Data @EqualsAndHashCode
+    @NoArgsConstructor
     @Embeddable
     public static class Pk implements Serializable {
         @Column(name = "order_id")

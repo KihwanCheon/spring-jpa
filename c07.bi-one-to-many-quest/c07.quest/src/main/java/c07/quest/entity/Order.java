@@ -9,11 +9,10 @@ import java.util.List;
 
 @Data
 @Entity
-@Table(name = "order")
+@Table(name = "`order`")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     Long id;
 
     @Column(name = "order_date")
@@ -21,5 +20,4 @@ public class Order {
 
     // TODO : Set RelationShip!
     List<OrderDetail> details = new ArrayList<>();
-
 }

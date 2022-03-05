@@ -21,8 +21,8 @@ public class OrderDetail {
         this.pk.setType(type);
     }
 
-    @Data @NoArgsConstructor
-    @EqualsAndHashCode
+    @Data @EqualsAndHashCode
+    @NoArgsConstructor
     @Embeddable
     public static class Pk implements Serializable {
         @Column(name = "order_id")

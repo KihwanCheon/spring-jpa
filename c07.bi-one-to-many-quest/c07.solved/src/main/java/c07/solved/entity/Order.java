@@ -9,17 +9,15 @@ import java.util.List;
 
 @Data
 @Entity
-@Table(name = "order")
+@Table(name = "`order`")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     Long id;
 
     @Column(name = "order_date")
     LocalDateTime orderDate;
 
-    // TODO : Set RelationShip!
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "order")
     List<OrderDetail> details = new ArrayList<>();
-
 }
