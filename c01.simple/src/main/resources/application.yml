@@ -1,9 +1,10 @@
 
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
+    #driver-class-name: org.h2.Driver
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
     # MODE=LEGACY with 1.4.x -> 2.1.x for GenerationType.IDENTITY
-    url: "jdbc:h2:./target/spring-jpa-c01;DATABASE_TO_UPPER=false;MODE=LEGACY"
+    url: "jdbc:log4jdbc:h2:./target/spring-jpa-c01;DATABASE_TO_UPPER=false;MODE=LEGACY"
     username: "sa"
     password:
 
@@ -20,3 +21,9 @@ logging:
     root: error
     org.hibernate.type.descriptor.sql.BasicBinder: trace
     example: debug
+    jdbc:
+      sqlonly: error
+      sqltiming: error
+      audit: error
+      resultset: error
+      resultsettable: info
