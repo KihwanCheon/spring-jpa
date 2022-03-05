@@ -1,4 +1,4 @@
-package c05.cascade.service;
+package c06.base.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

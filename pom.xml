@@ -14,6 +14,7 @@
 		<module>c03.entity-mapping</module>
 		<module>c04.uni-many-to-one</module>
 		<module>c05.uni-one-to-many</module>
+		<module>c06.bi-one-to-many</module>
 	</modules>
 	
 	<properties>
