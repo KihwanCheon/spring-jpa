@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>example</groupId>
 		<version>0.0.1-SNAPSHOT</version>
-		<artifactId>jpa</artifactId>
+		<artifactId>c06.bi-one-to-many</artifactId>
 	</parent>
 
 	<artifactId>c06.base</artifactId>
