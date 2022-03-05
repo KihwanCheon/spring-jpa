@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import static org.springframework.context.annotation.ComponentScan.*;
+import static org.springframework.context.annotation.ComponentScan.Filter;
 import static org.springframework.context.annotation.FilterType.ASSIGNABLE_TYPE;
 
 @EnableAutoConfiguration

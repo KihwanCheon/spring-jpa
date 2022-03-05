@@ -1,8 +1,8 @@
 package example.c04.manyToOne.base.service;
 
-import example.c04.manyToOne.base.repo.TeamDetailRepo;
 import example.c04.manyToOne.base.entity.Team;
 import example.c04.manyToOne.base.entity.TeamDetail;
+import example.c04.manyToOne.base.repo.TeamDetailRepo;
 import example.c04.manyToOne.base.repo.TeamRepo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

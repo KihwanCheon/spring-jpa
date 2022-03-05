@@ -11,7 +11,8 @@ import org.springframework.util.Assert;
 import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 
-import static org.springframework.test.util.ReflectionTestUtils.*;
+import static org.springframework.test.util.ReflectionTestUtils.invokeGetterMethod;
+import static org.springframework.test.util.ReflectionTestUtils.invokeSetterMethod;
 
 @Slf4j
 @Service
