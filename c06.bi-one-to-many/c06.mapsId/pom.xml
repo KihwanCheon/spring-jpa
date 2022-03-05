@@ -6,16 +6,10 @@
 	<parent>
 		<groupId>example</groupId>
 		<version>0.0.1-SNAPSHOT</version>
-		<artifactId>jpa</artifactId>
+		<artifactId>c06.bi-one-to-many</artifactId>
 	</parent>
 
-	<artifactId>c06.bi-one-to-many</artifactId>
+	<artifactId>c06.mapsId</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
-
-	<modules>
-		<module>c06.base</module>
-		<module>c06.mapsId</module>
-	</modules>
 
 </project>
