@@ -1,5 +1,6 @@
 package c07.quest;
 
+import c07.quest.service.OrderService;
 import c07.quest.service.TeamService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
@@ -18,7 +19,10 @@ public class C07QuestApp {
     }
 
     @Bean
-    CommandLineRunner onStatUp(TeamService svc) {
-        return args -> svc.doSomething();
+    CommandLineRunner onStatUp(TeamService svc, OrderService oSvc) {
+        return args -> {
+            svc.doSomething();
+            oSvc.doSomething();
+        };
     }
 }
