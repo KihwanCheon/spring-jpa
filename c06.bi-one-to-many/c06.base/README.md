@@ -4,6 +4,6 @@
 ```
 org.hibernate.MappingException: 
     Repeated column in mapping for entity: 
-        c06.base.entity.TeamDetail column: 
+        example.c06.base.entity.TeamDetail column: 
             team_id (should be mapped with insert="false" update="false")
 ```
