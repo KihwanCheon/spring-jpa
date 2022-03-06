@@ -3,7 +3,7 @@ spring:
   datasource:
     #driver-class-name: org.h2.Driver
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-    url: "jdbc:log4jdbc:h2:./target/spring-jpa-c08-base;DATABASE_TO_UPPER=false;MODE=LEGACY"
+    url: "jdbc:log4jdbc:h2:./target/spring-jpa-c08-jpql;DATABASE_TO_UPPER=false;MODE=LEGACY"
     username: "sa"
     password:
 
