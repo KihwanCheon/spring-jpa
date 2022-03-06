@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
 
-@SpringBootTest
+@SpringBootTest(classes = TestConfig.class)
 class TeamServiceTest {
 
     @Resource TeamService svc;

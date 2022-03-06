@@ -7,7 +7,7 @@ import javax.annotation.Resource;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest
+@SpringBootTest(classes = TestConfig.class)
 class ReservationServiceTest {
     @Resource ReservationService svc;
 
