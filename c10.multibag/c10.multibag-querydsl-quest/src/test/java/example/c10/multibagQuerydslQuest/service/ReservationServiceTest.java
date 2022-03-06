@@ -1,6 +1,5 @@
-package example.c10.multibagQuerydsl.service;
+package example.c10.multibagQuerydslQuest.service;
 
-import example.c10.multibagQuerydslSolved.service.ReservationService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.dao.InvalidDataAccessApiUsageException;
