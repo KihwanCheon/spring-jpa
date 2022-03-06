@@ -18,6 +18,7 @@
 		<module>c07.bi-one-to-many-quest</module>
 		<module>c08.n-plus-1</module>
 		<module>c09.method-naming</module>
+		<module>c10.multibag</module>
 	</modules>
 	
 	<properties>
