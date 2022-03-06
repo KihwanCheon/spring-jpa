@@ -1,4 +1,4 @@
-package example.c11.paginationQuerydslQuest.entity;
+package example.c11.paginationQuerydslSolved.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
