@@ -19,6 +19,7 @@
 		<module>c08.n-plus-1</module>
 		<module>c09.method-naming</module>
 		<module>c10.multibag</module>
+		<module>c11.pagination</module>
 	</modules>
 	
 	<properties>
