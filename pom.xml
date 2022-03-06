@@ -17,6 +17,7 @@
 		<module>c06.bi-one-to-many</module>
 		<module>c07.bi-one-to-many-quest</module>
 		<module>c08.n-plus-1</module>
+		<module>c09.method-naming</module>
 	</modules>
 	
 	<properties>
