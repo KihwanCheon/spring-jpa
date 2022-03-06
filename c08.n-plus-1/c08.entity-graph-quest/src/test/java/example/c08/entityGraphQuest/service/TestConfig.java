@@ -10,8 +10,8 @@ import static org.springframework.context.annotation.ComponentScan.Filter;
 import static org.springframework.context.annotation.FilterType.ASSIGNABLE_TYPE;
 
 @EnableAutoConfiguration
-@EnableJpaRepositories(basePackages = "example.c05")
-@EntityScan(basePackages = "example.c05")
+@EnableJpaRepositories(basePackages = "example.c08")
+@EntityScan(basePackages = "example.c08")
 @ComponentScan(excludeFilters = {@Filter(type = ASSIGNABLE_TYPE, value = C08EntityGraphQuestApp.class)})
 public class TestConfig {
 }
