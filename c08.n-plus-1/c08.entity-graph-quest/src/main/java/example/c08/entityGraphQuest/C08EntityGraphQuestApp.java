@@ -9,10 +9,10 @@ import org.springframework.context.annotation.Bean;
 
 @Slf4j
 @SpringBootApplication
-public class C06EntityGraphQuestApp {
+public class C08EntityGraphQuestApp {
 
     public static void main(String[] args) {
-        try (var ctx = SpringApplication.run(C06EntityGraphQuestApp.class, args)) {
+        try (var ctx = SpringApplication.run(C08EntityGraphQuestApp.class, args)) {
             // run scope!
         }
     }
