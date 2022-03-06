@@ -6,11 +6,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
 
+@Disabled("fix this test")
 @SpringBootTest(classes = TestConfig.class)
 class OrderServiceTest {
     @Resource OrderService svc;
 
-    @Disabled("fix this test")
     @Test
     void doSomething() {
         svc.doSomething();
