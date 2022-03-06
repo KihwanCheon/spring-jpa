@@ -1,6 +1,7 @@
 package example.c12.projection;
 
 import example.c12.projection.service.ReservationService;
+import example.c12.projection.service.TeamService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -18,13 +19,17 @@ public class C12ProjectionApp {
     }
 
     @Bean
-    CommandLineRunner onStartUp(ReservationService svc) {
+    CommandLineRunner onStartUp(ReservationService svc, TeamService tSvc) {
         return args -> {
             svc.setUp();
             svc.getOne();
             svc.getMulti();
             svc.getMultiWithReservedSeats();
-            log.info("json: {}", svc.getReservationsAsJson());
+            log.info("reservations: {}", svc.getReservationsAsJson());
+
+            tSvc.setUp();
+            log.info("teams: {}", tSvc.getTeamsAsJson());
+            log.info("teams-by type: {}", tSvc.getTeamsByTypeAsJson());
         };
     }
 }
