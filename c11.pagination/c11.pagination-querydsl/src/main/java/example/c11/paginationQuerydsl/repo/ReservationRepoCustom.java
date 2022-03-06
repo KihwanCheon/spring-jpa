@@ -9,6 +9,6 @@ import java.util.List;
 
 @NoRepositoryBean
 public interface ReservationRepoCustom {
-    List<Reservation> getOrdersWithAssociations();
-    Page<Reservation> getPagedOrdersWithAssociations(Pageable pageable);
+    List<Reservation> getReservationsWithAssociations();
+    Page<Reservation> getPagedReservationsWithAssociations(Pageable pageable);
 }

@@ -65,21 +65,23 @@ public class ReservationService {
 
     @Transactional(readOnly = true)
     public List<Seat> getMultiWithReservedSeats() {
-        List<Reservation> ordersWithAssociations = reservationRepo.getOrdersWithAssociations();
-        return getSeats(ordersWithAssociations);
+        return getSeats(reservationRepo.getReservationsWithAssociations());
     }
 
     @Transactional(readOnly = true)
     public List<Seat> getPagedSeats(int page, int size) {
-        return getSeats(reservationRepo.getPagedOrdersWithAssociations(PageRequest.of(page, size)).getContent());
+        return getSeats(reservationRepo.getPagedReservationsWithAssociations(PageRequest.of(page, size)).getContent());
     }
 
-    List<Seat> getSeats(List<Reservation> ordersWithAssociations) {
-        return ordersWithAssociations.stream()
+    List<Seat> getSeats(List<Reservation> reservations) {
+        log.info("reservations: {}", reservations.size());
+        var collected = reservations.stream()
                 .map(Reservation::getSeats)
                 .flatMap(Collection::stream)
                 .map(ReservationSeat::getSeat)
                 .collect(Collectors.toList());
+        log.info("reserved seats: {}({})", collected.size(), collected);
+        return collected;
     }
 
     Seat addSeat(String row, int column) {
