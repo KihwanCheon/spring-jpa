@@ -1,4 +1,4 @@
-package example.f01.jpql.embadded.service;
+package example.f01.jpql.embedded.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package example.f01.jpql.embadded.entity;
+package example.f01.jpql.embedded.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

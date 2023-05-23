@@ -1,6 +1,6 @@
-package example.f01.jpql.embadded.repo;
+package example.f01.jpql.embedded.repo;
 
-import example.f01.jpql.embadded.entity.Member;
+import example.f01.jpql.embedded.entity.Member;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

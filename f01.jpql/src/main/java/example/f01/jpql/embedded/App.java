@@ -1,6 +1,6 @@
-package example.f01.jpql.embadded;
+package example.f01.jpql.embedded;
 
-import example.f01.jpql.embadded.service.MemberService;
+import example.f01.jpql.embedded.service.MemberService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
