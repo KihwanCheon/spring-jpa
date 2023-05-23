@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>example</groupId>
 		<version>0.0.1-SNAPSHOT</version>
-		<artifactId>jpa</artifactId>
+		<artifactId>etc</artifactId>
 	</parent>
 
 	<artifactId>f01.jpql</artifactId>

@@ -21,7 +21,7 @@
 		<module>c10.multibag</module>
 		<module>c11.pagination</module>
 		<module>c12.projection</module>
-		<module>f01.jpql</module>
+		<module>etc</module>
 	</modules>
 	
 	<properties>
