@@ -10,6 +10,7 @@ public class Member {
 
     @Id // @GeneratedValue (strategy = GenerationType.IDENTITY)
     Long seq;
+    @Column(unique = true)
     String name;
     String birth;
     String contact;

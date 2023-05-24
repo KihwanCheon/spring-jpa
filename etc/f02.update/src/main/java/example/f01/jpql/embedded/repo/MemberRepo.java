@@ -5,4 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface MemberRepo extends CrudRepository<Member, Long> {
 
+    <S extends Member> S saveAndFlush(S entity);
 }

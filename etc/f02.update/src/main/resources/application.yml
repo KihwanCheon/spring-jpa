@@ -4,7 +4,7 @@ spring:
     #driver-class-name: org.h2.Driver
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
     # MODE=LEGACY with 1.4.x -> 2.1.x for GenerationType.IDENTITY
-    url: "jdbc:log4jdbc:h2:./target/spring-jpa-f01;DB_CLOSE_ON_EXIT=FALSE;DATABASE_TO_UPPER=false;MODE=LEGACY"
+    url: "jdbc:log4jdbc:h2:./target/spring-jpa-f02;DB_CLOSE_ON_EXIT=FALSE;DATABASE_TO_UPPER=false;MODE=LEGACY"
     username: "sa"
     password:
 
