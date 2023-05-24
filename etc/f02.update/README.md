@@ -1,0 +1,3 @@
+
+# JPQL example
+* Update null

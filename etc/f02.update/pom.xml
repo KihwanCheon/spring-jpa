@@ -5,17 +5,11 @@
 
 	<parent>
 		<groupId>example</groupId>
-		<artifactId>jpa</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<artifactId>etc</artifactId>
 	</parent>
 
-	<artifactId>etc</artifactId>
+	<artifactId>f02.update</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
-
-	<modules>
-		<module>f01.jpql</module>
-		<module>f02.update</module>
-	</modules>
 
 </project>
